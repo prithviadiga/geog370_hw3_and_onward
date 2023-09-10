@@ -23,11 +23,50 @@
 <a href = ""><img src= "" alt = "Projection" width = 600px></a>
 
 -->
-    <!--Pseudo-Mercator-->
-    <h2>Pseudo-Mercator Projection</h2>
-    <p>Pseudo-Mercator Projection projects the spherical contents of the globe onto an unrolled cylindrical surface in order to preserve a grid-like layout.<br>
-        This causes areas near the poles to be expanded in size relative to their actual size, while keeping areas close to the equator to maintian their size. </p>
-    <a href = "PseudoMercator.png"><img src="PseudoMercator.png" alt="Pseudo-Mercator Projection" width = 600px></a>
+<!--WGS84-->
+<h2>WGS84</h2>
+<p>WGS84 stretches areas near to the poles and increases their relative size in order to allow for grid-like coordinates. In order to ensure that landmasses <br>
+    at extreme latitudes don't become too big, they are then squished so as to minimize the size increase in the eyes of the viewer.</p>
+<a href = "WGS84.png"><img src= "WGS84.png" alt = "WGS84 Projection" width = 600px></a>
+
+<!--Aitoff-->
+<h2>Aitoff Projection</h2>
+<p>The Aitoff projection is an oval projection, abandoning the grid system of coordinates. It is better at preserving size than WGS84 but can cause <br>
+    landmasses towards the edge of the projection to become distorted. An example of this can be seen in Canada and Alaska. This issue is somewhat <br>
+    solved since most of the area towards the edges of the map are ocean.</p>
+<a href = "Aitoff.png"><img src= "Aitoff.png" alt = "Aitoff Projection" width = 600px></a>
+
+<!--Pseudo-Mercator-->
+<h2>Pseudo-Mercator Projection</h2>
+<p>Pseudo-Mercator Projection projects the spherical contents of the globe onto an unrolled cylindrical surface in order to preserve a grid-like layout.<br>
+    this causes areas near the poles to be expanded in size relative to their actual size, while keeping areas close to the equator to maintian their size. </p>
+<a href = "PseudoMercator.png"><img src="PseudoMercator.png" alt="Pseudo-Mercator Projection" width = 600px></a>
+
+<!--Winkel 1-->
+<h2>Winkel I</h2>
+<p>Winkel 1 consists of two straight lines, the Equator and the Prime Meridian. All other meridians are curved away from the Prime. While still <br>
+    causing expansion at the poles, it is not as defined as others such as Mercator. There is significant bulging towards the equator but this is remedied <br>
+    by the fact that this distorsion is mainly caused over ocean. </p>
+<a href = "Winkel I.png"><img src= "Winkel I.png" alt = "Winkel 1 Projection" width = 600px></a>
+
+<!--Cylindrical Equal-Area-->
+<h2>Cylindrical Equal-Area Projection</h2>
+<p>The Cylindrical Equal-Area Projection maintains a rectangular shape and square coordinates and also maintains relative areas on a map. This is <br>
+    achieved by stretching areas closer to the poles to match the size of the equator. Areas remain the size they should be but their appearence is distorted. </p>
+<a href = "equal area cylindrical projection.png"><img src= "equal area cylindrical projection.png" alt = "Cylindrical Equal-Area Projection<" width = 600px></a>
+
+<!--Equidistant conic projection-->
+<h2>Equidistant Conic Projection</h2>
+<p>Equidistant Conic Projections involve a concentric circle and arc pair acting as the bounds for straight lines of longitude that meet at the North pole and <br>diverge at the South. This creates a conical shape. Shape is distorted and areas further out from the center are larger. </p>
+<a href = "Equidistant conic projection.png"><img src= "Equidistant conic projection.png" alt = "Equidistant conic projection" width = 400px></a>
+
+<!--Azimuthal equidistant-->
+<h2>Azimuthal Equidistant Projection</h2>
+<p>Azimuthal Equidistant Projection consist of straight longitudinal lines projecting from a center point. The areas of the earth furthest away from the center <br>
+    point are heavily distorted while areas closer retain scale as well as distance. Along latitudes the scale, distance, and distorsion are not relevant but when <br>
+    compared to areas of different longitudes it becomes a problem. This map generally works when the scale of areas furthest from the center doesn't <br>
+    matter (oceans/ Antarctica).</p>
+<a href = "Azumithal Equidistant.png"><img src= "Azumithal Equidistant.png" alt = "Azimuthal Equidistant Projection" width = 400px></a>
 
 </body>
 </html>
