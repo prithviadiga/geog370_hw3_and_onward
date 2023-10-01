@@ -8,10 +8,18 @@
 <body>
     <h1>Homework 6: Census data choropleth</h1>
     <h2>Prithvi Adiga</h2>
-    <h3>Description of your map</h3>
+    <h3>This is a Choropleth map of North Carolina that shows the percent of the population per county that is able to commute to work in under 15 minutes. The range is  13 - 53%.<br>
+         I made the map by getting a CSV file from the census website that displayed the number of people per county that had a commute of a certain time length, split into <br>
+        five minute intervals. I then took the first three of these intervals, added them together, divided them by the totals and multiplied by 100 to get the percentage. <br> 
+        I then changed the formats of the county names and county codes in order to match the shapefile of NC counties that I already had, so that I could join the attribute <br>
+        table of my CSV file to the location data contained in the shapefile. After doing all this, I was able to set the map to be a choropleth by changing its symbology in the <br>
+        properties menu </h3>
     <!--link to map png-->
+    <a href = "NC_Commute_Choropleth.png"><img src= "NC_Commute_Choropleth.png" alt = "Choropleth" width = 900px></a>
     <h3>Data Used for this project</h3>
-    <!--your data.csv-->
-    <!--your data/shapefile-->
+        <!--your data.csv-->
+    <a href = "commute_time/ACSDT5Y2021.B08303-Data.csv">CSV Dataset</a><br>
+        <!--your data/shapefile-->
+    <a href = "data/NC2264_Counties_Shapefile.shp">Link to Shapefile</a>
 </body>
 </html>
