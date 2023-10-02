@@ -1,0 +1,25 @@
+{
+"type": "FeatureCollection",
+"name": "points_GeoJSON_hw2",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 20, "Point Name": "502 North" }, "geometry": { "type": "Point", "coordinates": [ -79.048849334454147, 35.918032116682639 ] } },
+{ "type": "Feature", "properties": { "id": 4, "Point Name": "Old Well" }, "geometry": { "type": "Point", "coordinates": [ -79.051234780615914, 35.91205275138293 ] } },
+{ "type": "Feature", "properties": { "id": 5, "Point Name": "Fountain" }, "geometry": { "type": "Point", "coordinates": [ -79.04995397107642, 35.912021512125868 ] } },
+{ "type": "Feature", "properties": { "id": 6, "Point Name": "Seniors Tree" }, "geometry": { "type": "Point", "coordinates": [ -79.053105303503358, 35.910930263815544 ] } },
+{ "type": "Feature", "properties": { "id": 7, "Point Name": "The Pit" }, "geometry": { "type": "Point", "coordinates": [ -79.048541282737801, 35.910097502480106 ] } },
+{ "type": "Feature", "properties": { "id": 8, "Point Name": "Lower Quad" }, "geometry": { "type": "Point", "coordinates": [ -79.050063588163894, 35.910115101386779 ] } },
+{ "type": "Feature", "properties": { "id": 9, "Point Name": "Ideal Quadsitting Spot" }, "geometry": { "type": "Point", "coordinates": [ -79.050292373950469, 35.910326288266702 ] } },
+{ "type": "Feature", "properties": { "id": 10, "Point Name": "Hardin Residence Hall" }, "geometry": { "type": "Point", "coordinates": [ -79.045645935877999, 35.904040431922546 ] } },
+{ "type": "Feature", "properties": { "id": 11, "Point Name": "Morrison Residence Hall" }, "geometry": { "type": "Point", "coordinates": [ -79.046172256466818, 35.904341186544727 ] } },
+{ "type": "Feature", "properties": { "id": 12, "Point Name": "Ehringhaus Residence Hall" }, "geometry": { "type": "Point", "coordinates": [ -79.042638389656176, 35.904115620578089 ] } },
+{ "type": "Feature", "properties": { "id": 13, "Point Name": "Lark Chapel Hill" }, "geometry": { "type": "Point", "coordinates": [ -79.052751263827034, 35.918871394228887 ] } },
+{ "type": "Feature", "properties": { "id": 14, "Point Name": "St. Anthony Hall" }, "geometry": { "type": "Point", "coordinates": [ -79.055420461098876, 35.909604392432904 ] } },
+{ "type": "Feature", "properties": { "id": 15, "Point Name": "Hanes Art Center" }, "geometry": { "type": "Point", "coordinates": [ -79.054236239774028, 35.912527351417225 ] } },
+{ "type": "Feature", "properties": { "id": 16, "Point Name": "McDonald's" }, "geometry": { "type": "Point", "coordinates": [ -79.061153596084196, 35.910793313048714 ] } },
+{ "type": "Feature", "properties": { "id": 17, "Point Name": "Rams Head Rec Center" }, "geometry": { "type": "Point", "coordinates": [ -79.046387044778157, 35.905954344423726 ] } },
+{ "type": "Feature", "properties": { "id": 18, "Point Name": "SRC" }, "geometry": { "type": "Point", "coordinates": [ -79.047302607619329, 35.909282796835882 ] } },
+{ "type": "Feature", "properties": { "id": 19, "Point Name": "Rock Climbing Gym" }, "geometry": { "type": "Point", "coordinates": [ -79.046711306617738, 35.909168351480737 ] } },
+{ "type": "Feature", "properties": { "id": 19, "Point Name": "Epilogue" }, "geometry": { "type": "Point", "coordinates": [ -79.055307225714387, 35.913539925619517 ] } }
+]
+}
