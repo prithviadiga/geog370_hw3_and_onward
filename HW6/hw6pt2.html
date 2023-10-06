@@ -18,11 +18,19 @@
         </ul>
     </h4>
     <h2>Maps:</h2>
-    <p>This map uses the Equal-Count (quantiles) mode of data classification. </p>
+    <p>This map uses the Equal-Count (quantiles) mode of data classification. Equal-count ensures that each colored category of the choropleth is represented an equal number of times. <br>
+    This is good if data is clumped together, but in the case of extreme outliers can end up categorizing drastically different outcomes together. While this map has a lot of darker <br>
+    areas, because the high is 75,000 commuters and dark green is anything greater than 8,000, it doesn't accurately convey the differences in the pieces of data contained in that category.<br>
+    Despite these issues, the map is easy to read because of the equal distribution in colors and is also visually appealing.</p>
     <a href = "hw6pt2_pngs/equal_count.png"><img src= "hw6pt2_pngs/equal_count.png" alt = "equal_count" width = 800px></a>
-    <p>This map uses the Equal-Interval mode of data classification. </p>
+    <p>This map uses the Equal-Interval mode of data classification. Equal-Interval ensures that each colored category contains the same number range. This is very good in a data-set where <br>
+    individual items are evenly distributed, but in a map with strict rural and urban boundaries the upper outliers can raise the mean. Furthermore, with there being so many rural <br>
+    areas, the mode is very low. This causes equal-interval maps detailing numbers relating to urban and rural areas to have a majority of divisions in the first category with only the largest<br>
+    cities occupying the remaining categories. These maps are useful at evenly representing all data on a linear scale in cases where outliers are either not present or ignored. </p>
     <a href = "hw6pt2_pngs/equal_interval.png"><img src= "hw6pt2_pngs/equal_interval.png" alt = "equal_interval" width = 800px></a>
-    <p>This map uses the Natural Breaks mode of data classification. </p>
+    <p>This map uses the Natural Breaks mode of data classification. Natural-Breaks does not follow any strict rules, but instead is algorithmically designed to maximize differences between categories <br>
+    while minimizing the differences present within a category. It's great for datasets with variations and the presence of significant outliers, but it is also very subjective as well as not being visually intuitive<br>
+    as the other categorization methods are. Because it is algorithmic and not based on simple category breaks, it can be computationally intensive when used on large datasets. </p>
     <a href = "hw6pt2_pngs/natural_breaks.png"><img src= "hw6pt2_pngs/natural_breaks.png" alt = "natural_breaks" width = 800px></a>
 </body>
 </html>
