@@ -8,26 +8,32 @@
 <body>
     <h1>Homework 6pt2: Census data ratios and categories</h1>
     <h2>Prithvi Adiga</h2>
-    <h4>I used the data from part 1 which contained commute data for every county in Virginia in 3 columns: total number of commuters, number of commuters who commute <br>
-    less than 15 minutes, and a custom value I created myself, the percent of commuters who commute less than 15 minutes. Since I'd used the percentage value for my <br>
-    last map, for this map I used population of people who commuted less than 15 minutes as my ratio and then I projected it with three different modes of data visualization:
+    <h4>Since I'd used a ratio for part 1, I used commute data for a different state (New York) and found the ratio of people who commuted over 45 minutes daily to the total number of commuters. <br>
+        The data I was using had a column for the total number of commuters and then columns on 5 minute intervals until it reached 45 minutes, upon which it was 45-59, 60-89, and then 90+ minute commutes.<br>
+        After cleaning and joining the CSV to my NY State Shapefile, I created a new field that added upp all the fields of 45+ minutes and then divided them by the total. I then used symbology to set them to <br>
+        3 different modes of data classification listed below. One of the counties, Hamilton, with a population of 5,000 had no data and so I created a second layer that used a single symbol gray fill in order to <br>
+        make Hamilton county appear to be gray as well as creating a null entry in the legend. 
+    </h4>
         <ul>
             <li>Equal Count (Quantiles)</li>
             <li>Equal Interval</li>
             <li>Natural Breaks</li>
         </ul>
     </h4>
-    <h2>Virginia Choropleth Maps:</h2>
+    <h2>New York Choropleth Maps:</h2>
+
     <p>This map uses the Equal-Count (quantiles) mode of data classification. Equal-count ensures that each colored category of the choropleth is represented an equal number of times. <br>
     This is good if data is clumped together, but in the case of extreme outliers can end up categorizing drastically different outcomes together. While this map has a lot of darker <br>
     areas, because the high is 75,000 commuters and dark green is anything greater than 8,000, it doesn't accurately convey the differences in the pieces of data contained in that category.<br>
     Despite these issues, the map is easy to read because of the equal distribution in colors and is also visually appealing.</p>
     <a href = "hw6pt2_pngs/equal_count.png"><img src= "hw6pt2_pngs/equal_count.png" alt = "equal_count" width = 800px></a>
+
     <p>This map uses the Equal-Interval mode of data classification. Equal-Interval ensures that each colored category contains the same number range. This is very good in a data-set where <br>
     individual items are evenly distributed, but in a map with strict rural and urban boundaries the upper outliers can raise the mean. Furthermore, with there being so many rural <br>
     areas, the mode is very low. This causes equal-interval maps detailing numbers relating to urban and rural areas to have a majority of divisions in the first category with only the largest<br>
     cities occupying the remaining categories. These maps are useful at evenly representing all data on a linear scale in cases where outliers are either not present or ignored. </p>
     <a href = "hw6pt2_pngs/equal_interval.png"><img src= "hw6pt2_pngs/equal_interval.png" alt = "equal_interval" width = 800px></a>
+    
     <p>This map uses the Natural Breaks mode of data classification. Natural-Breaks does not follow any strict rules, but instead is algorithmically designed to maximize differences between categories <br>
     while minimizing the differences present within a category. It's great for datasets with variations and the presence of significant outliers, but it is also very subjective as well as not being visually intuitive<br>
     as the other categorization methods are. Because it is algorithmic and not based on simple category breaks, it can be computationally intensive when used on large datasets. </p>
