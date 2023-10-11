@@ -7,6 +7,16 @@
 </head>
 <body>
     <h1>Homework 7: Make a choropleth or proportional symbol map </h1>
+    <p>My map is a view of the city limits of Seattle, divided into Land Tracts. A choropleth layer showing the percent of residents that live under the poverty line has <br>
+    been added. I chose to use orange to represent poverty so as to avoid political connotations while simulatenously having negative connotations and catching the viewer's eye. <br>
+    I added two scales in both feet and miles because the area represented is relatively small and so both methods could be relatively useful. Creating the map involved finding <br>
+    non-census data sources. It was especially difficult to find CSV data sources because they have so many non-GIS uses. Eventually I found data.gov, which is an open source <br>
+    government database. I used filters to specify that I wanted CSV GIS data and found that the city of Seattle has lots of data listed on the site. I found a shapefile of <br>
+    land tracts in order to have physical divisions within which to place the choropleth boundaries and then started looking for an appropriate CSV. I chose to focus my map on <br>
+    poverty since there is currently a cost of living crisis. The CSV had roughly 1700 GEOIDs while the Land Tract shp file had 135, and so I cleaned up the CSV by hand and joined <br>
+    it to the shp file, and then created a new field in order to display the percetage ratio. I then used natural breaks in order to display the map divisions and exported it as a png. <br>
+    
+    </p>
     <!--No using census data. 
     map png + vector file (GEOJSON) link (git) + CSV link website (outside) + Joined CSV link (git)
     Map must include a legend, north, scale. Include a description and reasons for selecting.  
