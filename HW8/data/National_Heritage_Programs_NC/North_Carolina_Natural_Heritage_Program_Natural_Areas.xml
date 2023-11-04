@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?><MD_Metadata xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xalan="http://xml.apache.org/xalan" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml" xmlns="http://www.isotc211.org/2005/gmd">
+    <fileIdentifier>
+        <gco:CharacterString>29e93ccbd95349a5af7495151237ae58</gco:CharacterString>
+    </fileIdentifier>
+    <characterSet>
+        <MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</MD_CharacterSetCode>
+    </characterSet>
+    <hierarchyLevel>
+        <MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="ISOTC211/19115">dataset</MD_ScopeCode>
+    </hierarchyLevel>
+    <hierarchyLevelName>
+        <gco:CharacterString>dataset</gco:CharacterString>
+    </hierarchyLevelName>
+    <contact>
+        <CI_ResponsibleParty>
+            <organisationName>
+                <gco:CharacterString>North Carolina Natural Heritage Program</gco:CharacterString>
+            </organisationName>
+            <contactInfo>
+                <CI_Contact>
+                    <phone>
+                        <CI_Telephone>
+                            <voice>
+                                <gco:CharacterString>919-707-8107</gco:CharacterString>
+                            </voice>
+                        </CI_Telephone>
+                    </phone>
+                    <address>
+                        <CI_Address>
+                            <electronicMailAddress>
+                                <gco:CharacterString>natural.heritage@ncdcr.gov</gco:CharacterString>
+                            </electronicMailAddress>
+                        </CI_Address>
+                    </address>
+                </CI_Contact>
+            </contactInfo>
+            <role>
+                <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="ISOTC211/19115">pointOfContact</CI_RoleCode>
+            </role>
+        </CI_ResponsibleParty>
+    </contact>
+    <dateStamp>
+        <gco:Date>2019-10-11</gco:Date>
+    </dateStamp>
+    <metadataStandardName>
+        <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
+    </metadataStandardName>
+    <metadataStandardVersion>
+        <gco:CharacterString>2007</gco:CharacterString>
+    </metadataStandardVersion>
+    <identificationInfo>
+        <MD_DataIdentification>
+            <citation>
+                <CI_Citation>
+                    <title>
+                        <gco:CharacterString>North Carolina Natural Heritage Program Natural Areas</gco:CharacterString>
+                    </title>
+                    <alternateTitle>
+                        <gco:CharacterString>NCNHP NHNA</gco:CharacterString>
+                    </alternateTitle>
+                    <date>
+                        <CI_Date>
+                            <date>
+                                <gco:Date>2023-10-02</gco:Date>
+                            </date>
+                            <dateType>
+                                <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" codeSpace="ISOTC211/19115">creation</CI_DateTypeCode>
+                            </dateType>
+                        </CI_Date>
+                    </date>
+                    <date>
+                        <CI_Date>
+                            <date>
+                                <gco:Date>2023-10-25</gco:Date>
+                            </date>
+                            <dateType>
+                                <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115">publication</CI_DateTypeCode>
+                            </dateType>
+                        </CI_Date>
+                    </date>
+                    <citedResponsibleParty>
+                        <CI_ResponsibleParty>
+                            <organisationName>
+                                <gco:CharacterString>North Carolina Natural Heritage Program</gco:CharacterString>
+                            </organisationName>
+                            <contactInfo>
+                                <CI_Contact>
+                                    <address>
+                                        <CI_Address>
+                                            <deliveryPoint>
+                                                <gco:CharacterString>North Carolina Natural Heritage Program</gco:CharacterString>
+                                            </deliveryPoint>
+                                            <deliveryPoint>
+                                                <gco:CharacterString>Department of Natural and Cultural Resources, Division of Land and Water Stewardship</gco:CharacterString>
+                                            </deliveryPoint>
+                                            <deliveryPoint>
+                                                <gco:CharacterString>MSC 1651</gco:CharacterString>
+                                            </deliveryPoint>
+                                            <city>
+                                                <gco:CharacterString>Raleigh</gco:CharacterString>
+                                            </city>
+                                            <administrativeArea>
+                                                <gco:CharacterString>NC</gco:CharacterString>
+                                            </administrativeArea>
+                                            <postalCode>
+                                                <gco:CharacterString>27699-1651</gco:CharacterString>
+                                            </postalCode>
+                                            <country>
+                                                <Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="US" codeSpace="ISO3166-1">US</Country>
+                                            </country>
+                                            <electronicMailAddress>
+                                                <gco:CharacterString>natural.heritage@ncdcr.gov</gco:CharacterString>
+                                            </electronicMailAddress>
+                                        </CI_Address>
+                                    </address>
+                                </CI_Contact>
+                            </contactInfo>
+                            <role>
+                                <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115">originator</CI_RoleCode>
+                            </role>
+                        </CI_ResponsibleParty>
+                    </citedResponsibleParty>
+                </CI_Citation>
+            </citation>
+            <abstract>
+                <gco:CharacterString>The North Carolina Natural Heritage Program's Natural Areas are terrestrial and aquatic areas that are of special biodiversity significance. A Natural Area's significance may be due to the presence of rare species, high-quality natural communities, important animal assemblages, or other ecological features, collectively known as “Elements” of biodiversity. The North Carolina Natural Heritage Program (NCNHP) identifies and inventories these areas, evaluates and assigns conservation priority ratings to the Natural Areas based on the biodiversity within them, and works with many partners to implement voluntary protection for them. The Natural Area boundaries are drawn by NCNHP staff, based on field surveys, and are ecological in nature. Many of the Natural Areas are on private land and are not open to the public. Written permission should be obtained from all appropriate landowners before visiting any of these sites.</gco:CharacterString>
+            </abstract>
+            <purpose>
+                <gco:CharacterString>The North Carolina Natural Heritage Program's Natural Areas are terrestrial and aquatic areas that are of special biodiversity significance and indicate action areas for the conservation of North Carolina's biodiversity.</gco:CharacterString>
+            </purpose>
+            <credit>
+                <gco:CharacterString>North Carolina Department of Natural and Cultural Resources, North Carolina Natural Heritage Program</gco:CharacterString>
+            </credit>
+            <status>
+                <MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="planned" codeSpace="ISOTC211/19115">planned</MD_ProgressCode>
+            </status>
+            <resourceMaintenance>
+                <MD_MaintenanceInformation>
+                    <maintenanceAndUpdateFrequency>
+                        <MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="quarterly" codeSpace="ISOTC211/19115">quarterly</MD_MaintenanceFrequencyCode>
+                    </maintenanceAndUpdateFrequency>
+                </MD_MaintenanceInformation>
+            </resourceMaintenance>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>NC</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>NC OneMap</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Department of Natural and Cultural Resources</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>DNCR</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>North Carolina</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>North Carolina Natural Heritage Program</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>NCNHP</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>biota</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>environment</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Natural Area</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Natural Heritage</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>conservation</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>natural ecosystem</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>natural community</gco:CharacterString>
+                    </keyword>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <resourceConstraints>
+                <MD_Constraints>
+                    <useLimitation>
+                        <gco:CharacterString>The North Carolina Natural Heritage Program (NCNHP) provides data for the purposes of research, education, environmental review, assessment, and project planning, including screening for potential impacts to natural heritage resources, as described in N.C.G.S. 143B 135.256.The
+ effects of a project on a Natural Area depend on the nature of the 
+Elements it contains and on the nature of the action being considered. 
+Because conditions on the ground may have changed since the Natural Area boundaries were drawn, the NCNHP should be consulted 
+and field surveys should be conducted to verify conditions, before using
+ the data in making land-use decisions. Written permission should be obtained from all appropriate landowners before conducting field surveys. If field surveys involve collection of biological specimens, written permission of the land owner and state or federal collecting permits may be required.Areas outside of the Natural Area boundaries do not necessarily fail to qualify for Natural Area status; they simply may not have been inventoried. Thus, the boundaries are considered approximate. These data are not intended to indicate the authoritative location of property boundaries, shape or contour of the earth, or fixed works. These data are not a survey and do not meet the minimum accuracy standards of a Land Information System/Geographic Information System Survey in North Carolina (21 NCAC 56.1608).NCNHP data require some understanding of NCNHP methods and definitions for proper use and analysis. NCNHP staff is available to advise all data users regarding the technical aspects of these data. If the data provided are used in reports, papers, maps, or other publications, the NCNHP must be cited as the source, and the data date must be included in the citation. The NCNHP shall be notified if its data are used in publications. Researchers shall submit to NCNHP copies of final reports or publications resulting from research that used NCNHP data. The citation shall be:                                      North Carolina Natural Heritage Program. &amp;lt;year&amp;gt;. Geographic Information System (GIS) data. NCDNCR,                   Raleigh, North Carolina. Available at www.ncnhp.org. (Accessed: &amp;lt;date&amp;gt;).Because these data can quickly become outdated, the Department of Natural and Cultural Resources, Division of Land and Water Stewardship, North Carolina Natural Heritage Program should be contacted before use of the data set to ensure data currency. The NCNHP makes no warranties as to the completeness and accuracy of the data presented.</gco:CharacterString>
+                    </useLimitation>
+                    <useLimitation>
+                        <gco:CharacterString>Supplemental Information: An extensive tabular database is maintained by the Natural Heritage Program. Supplemental materials are also available that indicate the state, national, and global status of the rare plants and animals of North Carolina. These publications are available from the NHP and are helpful in understanding each Natural Area record. (See Cross References)
+
+NATURAL HERITAGE PROGRAM DATA The Natural Heritage Program is the state's most comprehensive source of information on rare and endangered animals and plants, and exemplary natural communities, known collectively as "elements of natural diversity." Since 1976, the program has systematically gathered information on the occurrence and the status of the state's ecological resources. The inventory consists of information compiled from a broad range of sources including herbarium and museum collections, published and unpublished literature, and field surveys by volunteers, contracted workers, and staff. Information from and interpretation of this database for specific sites is available from the Natural Heritage Program. This is generally the preferred method of getting information on elements of natural diversity. Users of the data must, however, be aware of the nature and limitations of the data.
+
+LIMITATIONS OF POLYGON DATA The polygon locations contained in the data represent the approximate boundaries of ecologically significant Natural Areas. The Natural Areas database contains data from a variety of sources, which vary in the quality of their locational information. These data are not a survey and do not meet the minimum accuracy standards of a Land Information System/Geographic Information System Survey in North Carolina (21 NCAC 56.1608). Because of uncertainty about the precision and accuracy of source data, polygons anywhere within several miles of a site of interest should be regarded as indicating the need for more information. Probability of effects by a project depends on the actual location and extent of the Natural Area, on the nature of the species or community it contains, and on the nature of the action being considered. Interpretation of potential effects should be done only by ecologists familiar with the natural area, with the best locational information available.
+
+LIMITATIONS OF ABSENCE OF DATA Although the Natural Heritage Program has conducted numerous biological inventories and has assembled as much of the secondary source data as possible, the large majority of the state has never been systematically surveyed for significant natural areas. In addition, negative surveys are seldom reported to the Natural Heritage Program and are not recorded. The database reflects only locations where a significant Natural Area was once known to occur. It does not distinguish between areas known to have no Natural Areas and those that have not been checked. The absence of Natural Areas cannot be taken as an indication of absence of elements or of ecological concerns. Natural Heritage Program biologists are often able to give indications of the potential for concern in unsurveyed areas, and these data alone are not a substitute for this kind of interpretation.
+
+DATA CURRENCY The Natural Heritage Program databases are continually updated as new information is acquired. This data set is updated quarterly. Users should determine the date of the last update. All printed maps from the GIS should be dated. Depending on activity in a given area, a map may quickly become outdated, or may remain current for several years. It is not possible to set a specific expiration date on maps; however, data more than six months old should not be depended on without checking with the Natural Heritage Program. Only a small portion of the natural areas are monitored on a regular basis.
+
+ADDITIONAL INFORMATION Additional information about Natural Areas, and user services are available from the Natural Heritage Program. The basic data are "public records" and are available for inspection on request for reasonable purposes.</gco:CharacterString>
+                    </useLimitation>
+                </MD_Constraints>
+            </resourceConstraints>
+            <resourceConstraints>
+                <MD_LegalConstraints>
+                    <accessConstraints>
+                        <MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions" codeSpace="ISOTC211/19115">otherRestrictions</MD_RestrictionCode>
+                    </accessConstraints>
+                    <otherConstraints>
+                        <gco:CharacterString>Other Constraints</gco:CharacterString>
+                    </otherConstraints>
+                </MD_LegalConstraints>
+            </resourceConstraints>
+            <resourceConstraints>
+                <MD_LegalConstraints>
+                    <useConstraints>
+                        <MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions" codeSpace="ISOTC211/19115">otherRestrictions</MD_RestrictionCode>
+                    </useConstraints>
+                    <otherConstraints>
+                        <gco:CharacterString>Other Constraints</gco:CharacterString>
+                    </otherConstraints>
+                </MD_LegalConstraints>
+            </resourceConstraints>
+            <resourceConstraints>
+                <MD_LegalConstraints>
+                    <accessConstraints>
+                        <MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions" codeSpace="ISOTC211/19115">otherRestrictions</MD_RestrictionCode>
+                    </accessConstraints>
+                    <otherConstraints>
+                        <gco:CharacterString>Other Constraints</gco:CharacterString>
+                    </otherConstraints>
+                </MD_LegalConstraints>
+            </resourceConstraints>
+            <resourceConstraints>
+                <MD_LegalConstraints>
+                    <useConstraints>
+                        <MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions" codeSpace="ISOTC211/19115">otherRestrictions</MD_RestrictionCode>
+                    </useConstraints>
+                    <otherConstraints>
+                        <gco:CharacterString>Other Constraints</gco:CharacterString>
+                    </otherConstraints>
+                </MD_LegalConstraints>
+            </resourceConstraints>
+            <resourceConstraints>
+                <MD_LegalConstraints>
+                    <accessConstraints>
+                        <MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions" codeSpace="ISOTC211/19115">otherRestrictions</MD_RestrictionCode>
+                    </accessConstraints>
+                    <otherConstraints>
+                        <gco:CharacterString>Other Constraints</gco:CharacterString>
+                    </otherConstraints>
+                </MD_LegalConstraints>
+            </resourceConstraints>
+            <resourceConstraints>
+                <MD_LegalConstraints>
+                    <useConstraints>
+                        <MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions" codeSpace="ISOTC211/19115">otherRestrictions</MD_RestrictionCode>
+                    </useConstraints>
+                    <otherConstraints>
+                        <gco:CharacterString>Other Constraints</gco:CharacterString>
+                    </otherConstraints>
+                </MD_LegalConstraints>
+            </resourceConstraints>
+            <resourceConstraints>
+                <MD_LegalConstraints>
+                    <accessConstraints>
+                        <MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions" codeSpace="ISOTC211/19115">otherRestrictions</MD_RestrictionCode>
+                    </accessConstraints>
+                    <otherConstraints>
+                        <gco:CharacterString>Other Constraints</gco:CharacterString>
+                    </otherConstraints>
+                </MD_LegalConstraints>
+            </resourceConstraints>
+            <resourceConstraints>
+                <MD_LegalConstraints>
+                    <useConstraints>
+                        <MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions" codeSpace="ISOTC211/19115">otherRestrictions</MD_RestrictionCode>
+                    </useConstraints>
+                    <otherConstraints>
+                        <gco:CharacterString>Other Constraints</gco:CharacterString>
+                    </otherConstraints>
+                </MD_LegalConstraints>
+            </resourceConstraints>
+            <resourceConstraints>
+                <MD_LegalConstraints>
+                    <accessConstraints>
+                        <MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions" codeSpace="ISOTC211/19115">otherRestrictions</MD_RestrictionCode>
+                    </accessConstraints>
+                    <otherConstraints>
+                        <gco:CharacterString>Other Constraints</gco:CharacterString>
+                    </otherConstraints>
+                </MD_LegalConstraints>
+            </resourceConstraints>
+            <resourceConstraints>
+                <MD_LegalConstraints>
+                    <useConstraints>
+                        <MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions" codeSpace="ISOTC211/19115">otherRestrictions</MD_RestrictionCode>
+                    </useConstraints>
+                    <otherConstraints>
+                        <gco:CharacterString>Other Constraints</gco:CharacterString>
+                    </otherConstraints>
+                </MD_LegalConstraints>
+            </resourceConstraints>
+            <resourceConstraints>
+                <MD_LegalConstraints>
+                    <accessConstraints>
+                        <MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions" codeSpace="ISOTC211/19115">otherRestrictions</MD_RestrictionCode>
+                    </accessConstraints>
+                    <otherConstraints>
+                        <gco:CharacterString>Other Constraints</gco:CharacterString>
+                    </otherConstraints>
+                </MD_LegalConstraints>
+            </resourceConstraints>
+            <resourceConstraints>
+                <MD_LegalConstraints>
+                    <useConstraints>
+                        <MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions" codeSpace="ISOTC211/19115">otherRestrictions</MD_RestrictionCode>
+                    </useConstraints>
+                    <otherConstraints>
+                        <gco:CharacterString>Other Constraints</gco:CharacterString>
+                    </otherConstraints>
+                </MD_LegalConstraints>
+            </resourceConstraints>
+            <resourceConstraints>
+                <MD_LegalConstraints>
+                    <accessConstraints>
+                        <MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions" codeSpace="ISOTC211/19115">otherRestrictions</MD_RestrictionCode>
+                    </accessConstraints>
+                    <otherConstraints>
+                        <gco:CharacterString>Other Constraints</gco:CharacterString>
+                    </otherConstraints>
+                </MD_LegalConstraints>
+            </resourceConstraints>
+            <resourceConstraints>
+                <MD_LegalConstraints>
+                    <useConstraints>
+                        <MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions" codeSpace="ISOTC211/19115">otherRestrictions</MD_RestrictionCode>
+                    </useConstraints>
+                    <otherConstraints>
+                        <gco:CharacterString>Other Constraints</gco:CharacterString>
+                    </otherConstraints>
+                </MD_LegalConstraints>
+            </resourceConstraints>
+            <resourceConstraints>
+                <MD_LegalConstraints>
+                    <accessConstraints>
+                        <MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions" codeSpace="ISOTC211/19115">otherRestrictions</MD_RestrictionCode>
+                    </accessConstraints>
+                    <otherConstraints>
+                        <gco:CharacterString>Other Constraints</gco:CharacterString>
+                    </otherConstraints>
+                </MD_LegalConstraints>
+            </resourceConstraints>
+            <resourceConstraints>
+                <MD_LegalConstraints>
+                    <useConstraints>
+                        <MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions" codeSpace="ISOTC211/19115">otherRestrictions</MD_RestrictionCode>
+                    </useConstraints>
+                    <otherConstraints>
+                        <gco:CharacterString>Other Constraints</gco:CharacterString>
+                    </otherConstraints>
+                </MD_LegalConstraints>
+            </resourceConstraints>
+            <resourceConstraints>
+                <MD_LegalConstraints>
+                    <accessConstraints>
+                        <MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions" codeSpace="ISOTC211/19115">otherRestrictions</MD_RestrictionCode>
+                    </accessConstraints>
+                    <otherConstraints>
+                        <gco:CharacterString>Other Constraints</gco:CharacterString>
+                    </otherConstraints>
+                </MD_LegalConstraints>
+            </resourceConstraints>
+            <resourceConstraints>
+                <MD_LegalConstraints>
+                    <useConstraints>
+                        <MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions" codeSpace="ISOTC211/19115">otherRestrictions</MD_RestrictionCode>
+                    </useConstraints>
+                    <otherConstraints>
+                        <gco:CharacterString>Other Constraints</gco:CharacterString>
+                    </otherConstraints>
+                </MD_LegalConstraints>
+            </resourceConstraints>
+            <resourceConstraints>
+                <MD_LegalConstraints>
+                    <accessConstraints>
+                        <MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions" codeSpace="ISOTC211/19115">otherRestrictions</MD_RestrictionCode>
+                    </accessConstraints>
+                    <otherConstraints>
+                        <gco:CharacterString>Other Constraints</gco:CharacterString>
+                    </otherConstraints>
+                </MD_LegalConstraints>
+            </resourceConstraints>
+            <resourceConstraints>
+                <MD_LegalConstraints>
+                    <useConstraints>
+                        <MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions" codeSpace="ISOTC211/19115">otherRestrictions</MD_RestrictionCode>
+                    </useConstraints>
+                    <otherConstraints>
+                        <gco:CharacterString>Other Constraints</gco:CharacterString>
+                    </otherConstraints>
+                </MD_LegalConstraints>
+            </resourceConstraints>
+            <resourceConstraints>
+                <MD_LegalConstraints>
+                    <accessConstraints>
+                        <MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions" codeSpace="ISOTC211/19115">otherRestrictions</MD_RestrictionCode>
+                    </accessConstraints>
+                    <otherConstraints>
+                        <gco:CharacterString>Other Constraints</gco:CharacterString>
+                    </otherConstraints>
+                </MD_LegalConstraints>
+            </resourceConstraints>
+            <resourceConstraints>
+                <MD_LegalConstraints>
+                    <useConstraints>
+                        <MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions" codeSpace="ISOTC211/19115">otherRestrictions</MD_RestrictionCode>
+                    </useConstraints>
+                    <otherConstraints>
+                        <gco:CharacterString>Other Constraints</gco:CharacterString>
+                    </otherConstraints>
+                </MD_LegalConstraints>
+            </resourceConstraints>
+            <resourceConstraints>
+                <MD_LegalConstraints>
+                    <accessConstraints>
+                        <MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions" codeSpace="ISOTC211/19115">otherRestrictions</MD_RestrictionCode>
+                    </accessConstraints>
+                    <otherConstraints>
+                        <gco:CharacterString>Other Constraints</gco:CharacterString>
+                    </otherConstraints>
+                </MD_LegalConstraints>
+            </resourceConstraints>
+            <resourceConstraints>
+                <MD_LegalConstraints>
+                    <useConstraints>
+                        <MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions" codeSpace="ISOTC211/19115">otherRestrictions</MD_RestrictionCode>
+                    </useConstraints>
+                    <otherConstraints>
+                        <gco:CharacterString>Other Constraints</gco:CharacterString>
+                    </otherConstraints>
+                </MD_LegalConstraints>
+            </resourceConstraints>
+            <resourceConstraints>
+                <MD_LegalConstraints>
+                    <accessConstraints>
+                        <MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions" codeSpace="ISOTC211/19115">otherRestrictions</MD_RestrictionCode>
+                    </accessConstraints>
+                    <otherConstraints>
+                        <gco:CharacterString>Other Constraints</gco:CharacterString>
+                    </otherConstraints>
+                </MD_LegalConstraints>
+            </resourceConstraints>
+            <resourceConstraints>
+                <MD_LegalConstraints>
+                    <useConstraints>
+                        <MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions" codeSpace="ISOTC211/19115">otherRestrictions</MD_RestrictionCode>
+                    </useConstraints>
+                    <otherConstraints>
+                        <gco:CharacterString>Other Constraints</gco:CharacterString>
+                    </otherConstraints>
+                </MD_LegalConstraints>
+            </resourceConstraints>
+            <language>
+                <LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php" codeListValue="eng" codeSpace="ISO639-2">eng</LanguageCode>
+            </language>
+            <characterSet>
+                <MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</MD_CharacterSetCode>
+            </characterSet>
+            <topicCategory>
+                <MD_TopicCategoryCode>biota</MD_TopicCategoryCode>
+            </topicCategory>
+            <topicCategory>
+                <MD_TopicCategoryCode>environment</MD_TopicCategoryCode>
+            </topicCategory>
+            <supplementalInformation>
+                <gco:CharacterString>An extensive tabular database is maintained by the Natural Heritage Program. Supplemental materials are also available that indicate the state, national, and global status of the rare plants and animals of North Carolina. These publications are available from the NHP and are helpful in understanding each Natural Area record. (See Cross References)
+
+NATURAL HERITAGE PROGRAM DATA The Natural Heritage Program is the state's most comprehensive source of information on rare and endangered animals and plants, and exemplary natural communities, known collectively as "elements of natural diversity." Since 1976, the program has systematically gathered information on the occurrence and the status of the state's ecological resources. The inventory consists of information compiled from a broad range of sources including herbarium and museum collections, published and unpublished literature, and field surveys by volunteers, contracted workers, and staff. Information from and interpretation of this database for specific sites is available from the Natural Heritage Program. This is generally the preferred method of getting information on elements of natural diversity. Users of the data must, however, be aware of the nature and limitations of the data.
+
+LIMITATIONS OF POLYGON DATA The polygon locations contained in the data represent the approximate boundaries of ecologically significant Natural Areas. The Natural Areas database contains data from a variety of sources, which vary in the quality of their locational information. These data are not a survey and do not meet the minimum accuracy standards of a Land Information System/Geographic Information System Survey in North Carolina (21 NCAC 56.1608). Because of uncertainty about the precision and accuracy of source data, polygons anywhere within several miles of a site of interest should be regarded as indicating the need for more information. Probability of effects by a project depends on the actual location and extent of the Natural Area, on the nature of the species or community it contains, and on the nature of the action being considered. Interpretation of potential effects should be done only by ecologists familiar with the natural area, with the best locational information available.
+
+LIMITATIONS OF ABSENCE OF DATA Although the Natural Heritage Program has conducted numerous biological inventories and has assembled as much of the secondary source data as possible, the large majority of the state has never been systematically surveyed for significant natural areas. In addition, negative surveys are seldom reported to the Natural Heritage Program and are not recorded. The database reflects only locations where a significant Natural Area was once known to occur. It does not distinguish between areas known to have no Natural Areas and those that have not been checked. The absence of Natural Areas cannot be taken as an indication of absence of elements or of ecological concerns. Natural Heritage Program biologists are often able to give indications of the potential for concern in unsurveyed areas, and these data alone are not a substitute for this kind of interpretation.
+
+DATA CURRENCY The Natural Heritage Program databases are continually updated as new information is acquired. This data set is updated quarterly. Users should determine the date of the last update. All printed maps from the GIS should be dated. Depending on activity in a given area, a map may quickly become outdated, or may remain current for several years. It is not possible to set a specific expiration date on maps; however, data more than six months old should not be depended on without checking with the Natural Heritage Program. Only a small portion of the natural areas are monitored on a regular basis.
+
+ADDITIONAL INFORMATION Additional information about Natural Areas, and user services are available from the Natural Heritage Program. The basic data are "public records" and are available for inspection on request for reasonable purposes.</gco:CharacterString>
+            </supplementalInformation>
+        </MD_DataIdentification>
+    </identificationInfo>
+    <distributionInfo>
+        <MD_Distribution>
+            <transferOptions>
+                <MD_DigitalTransferOptions>
+                    <onLine>
+                        <CI_OnlineResource>
+                            <linkage>
+                                <URL>https://services.arcgis.com/iFBq2AW9XO0jYYF7/arcgis/rest/services/NCNHP_Natural_Areas/FeatureServer</URL>
+                            </linkage>
+                        </CI_OnlineResource>
+                    </onLine>
+                </MD_DigitalTransferOptions>
+            </transferOptions>
+        </MD_Distribution>
+    </distributionInfo>
+</MD_Metadata>

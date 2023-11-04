@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <origin/>
+                <pubdate>20200610</pubdate>
+                <title>North Carolina Mountain Ridge Protection Act (MRPA) Ridgelines</title>
+                <geoform>vector digital data</geoform>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>The Mountain Ridge Protection Act (MRPA) of 1983 established protections in the form of building height restrictions for ridgelines at or above 3,000 feet in elevation and/or that rise 500 feet or more above their adjacent valley floor. This dataset identifies, via vector line data, the ridges which meet those criteria, as initially determined on a series of hand-annotated United States Geological Survey (USGS) 7.5 minute topographic quadrangle maps and later digitized into this vector line dataset. The data will not be updated except in the event of an amendment to the MRPA of 1983.Text of the MRPA of 1983 (North Carolina General Statute Chapter 113A, Article 14) is available at https://www.ncleg.gov/EnactedLegislation/Statutes/PDF/ByArticle/Chapter_113A/Article_14.pdf.</abstract>
+            <purpose>Ridgelines identified for protection by the Mountain Ridge Protection Act of 1983, North Carolina General Statute Chapter 113A, Article 14 (available at https://www.ncleg.gov/EnactedLegislation/Statutes/PDF/ByArticle/Chapter_113A/Article_14.pdf).</purpose>
+        </descript>
+        <timeperd>
+            <timeinfo>
+                <rngdates>
+                    <begdate>19840101</begdate>
+                </rngdates>
+            </timeinfo>
+            <current>Data is valid  from the time the Mountain Ridge Protection Act of 1983 went into effect, on Jan. 1, 1984.</current>
+        </timeperd>
+        <status>
+            <progress>Complete</progress>
+            <update>As needed</update>
+        </status>
+        <spdom>
+            <bounding>
+                <westbc>-84.396792</westbc>
+                <eastbc>-80.487881</eastbc>
+                <northbc>36.602397</northbc>
+                <southbc>34.955112</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>ISO 19115 Topic Categories</themekt>
+                <themekey>environment</themekey>
+                <themekey>location</themekey>
+                <themekey>planningCadastre</themekey>
+                <themekey>structure</themekey>
+            </theme>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>NC</themekey>
+                <themekey>North Carolina</themekey>
+                <themekey>NC OneMap</themekey>
+                <themekey>Department of Public Safety</themekey>
+                <themekey>DPS</themekey>
+                <themekey>North Carolina Emergency Management</themekey>
+                <themekey>NCEM</themekey>
+                <themekey>North Carolina Geodetic Survey</themekey>
+                <themekey>NC Geodetic Survey</themekey>
+                <themekey>NCGS</themekey>
+                <themekey>environment</themekey>
+                <themekey>location</themekey>
+                <themekey>planningCadastre</themekey>
+                <themekey>structure</themekey>
+                <themekey>Mountain Ridge Protection Act</themekey>
+                <themekey>MRPA</themekey>
+                <themekey>Ridge</themekey>
+                <themekey>Ridgeline</themekey>
+            </theme>
+        </keywords>
+        <accconst>None</accconst>
+        <useconst>None. Please check sources, scale, accuracy, currentness and other available information. Please confirm that you are using the most recent copy of both data and metadata.Although these data have been processed successfully on a computer system at the NC Geodetic Survey, no warranty expressed or implied is made regarding the accuracy or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data to evaluate data set limitations, restrictions or intended use. The NC Geodetic Survey shall not be held liable for improper or incorrect use of the data described.</useconst>
+        <ptcontac>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>North Carolina Geodetic Survey</cntorg>
+                </cntorgp>
+                <cntpos>GIS Manager</cntpos>
+                <cntaddr>
+                    <addrtype>physical</addrtype>
+                    <address>4105 Reedy Creek Rd</address>
+                    <city>Raleigh</city>
+                    <state>NC</state>
+                    <postal>27607</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>919-733-3836</cntvoice>
+            </cntinfo>
+        </ptcontac>
+        <ptcontac>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>North Carolina Geodetic Survey</cntorg>
+                </cntorgp>
+                <cntpos>GIS Manager</cntpos>
+                <cntaddr>
+                    <addrtype>physical</addrtype>
+                    <address>4105 Reedy Creek Rd</address>
+                    <city>Raleigh</city>
+                    <state>NC</state>
+                    <postal>27607</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>919-733-3836</cntvoice>
+                <cntinst>More information at https://ncgs.state.nc.us/</cntinst>
+            </cntinfo>
+        </ptcontac>
+        <datacred>North Carolina Geodetic Survey (NCGS)</datacred>
+        <native>Version 6.2 (Build 9200) ; Esri ArcGIS 10.5.1.7333</native>
+    </idinfo>
+    <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+            <sdtsterm>
+                <sdtstype>String</sdtstype>
+                <ptvctcnt>4668</ptvctcnt>
+            </sdtsterm>
+        </ptvctinf>
+    </spdoinfo>
+    <eainfo>
+        <detailed>
+            <enttyp>
+                <enttypl>mrpa_ridgelines</enttypl>
+                <enttypd>Vector line geometry describing ridgelines falling under the protection of the MRPA</enttypd>
+                <enttypds>Digitized from lines drawn on USGS 7.5 minute topographic quadrangle maps</enttypds>
+            </enttyp>
+            <attr>
+                <attrlabl>OBJECTID</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>Esri</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Shape</attrlabl>
+                <attrdef>Feature geometry.</attrdef>
+                <attrdefs>Esri</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Coordinates defining the features.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>CATEGORY</attrlabl>
+                <attrdef>The protection category under which the particular ridgeline falls, determined by the elevation of the ridgeline above mean sea level as well as the elevation of the ridgeline relative to the adjacent valley floor.</attrdef>
+                <attrdefs>Ridge Protection Identification guidance dated Jan.1, 1984</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>YELLOW - identifies a ridge for protection because it has an elevation of 3,000 or more feet and it rises 500 feet or more above the valley floor.
+ORANGE - indicates that a ridge identified for protection with an elevation of 3,000 feet or higher also forms the common boundary between two counties.
+GREEN - identifies a ridge or a part of a ridge rising 500 feet or more above the valley floor, but having an elevation of less than the 3,000 or more feet defining primary eligibility for protection in the Act.
+BLUE - indicates that a ridge identified for protection rising 500 feet or more above the valley floor, but having less than 3,000 foot elevation, also forms the common boundary between two counties.
+
+It is important to note that the ridge identification lines are only for the purpose of identifying ridges to be protected. They are in no way meant to show the extent of the 100 foot elevation protection zone specified by the Act.
+
+The degree and kind of protection to which ridges identified for protection are subject is dependent upon which options available under the Act are chosen by the local government units having jurisdiction. For that reason, if ridges rising 500 feet or more above the valley floor, but with less than 3,000 foot elevation, have been identified in this data, their actual protection under the Act is entirely dependent on whether or not the local government with jurisdiction has elected to remove the Act's 3,000 foot elevation requirement. Local government authorities should be consulted to determine applicable ridge protection when interpreting this data.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>LANDMARK</attrlabl>
+                <attrdef>The nearest prominent topographic feature in relation to each ridgeline feature, as determined by the topographic features denoted on the originally marked USGS 7.5 minute topo quad maps.</attrdef>
+                <attrdefs>NCGS</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>The name of a nearby prominent topographic feature, as decribed in this field's definition.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>QUAD</attrlabl>
+                <attrdef>The name of the USGS 7.5 minute topographic quadrangle map upon which this feature appears.</attrdef>
+                <attrdefs>NCGS</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>The name of the USGS 7.5 minute topographic quadrangle map upon which this feature appears.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>QUAD_NMBR</attrlabl>
+                <attrdef>The MRPA-specific index number assigned to the USGS 7.5 minute topo quads on which the ridgeline features appear. This number is hand-written on each of the original topo quads on which the ridgeline features were originally determined.</attrdef>
+                <attrdefs>NCGS</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Contains a unique integer identifier as found on the originally marked USGS 7.5 minute topo quad maps.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Shape_Length</attrlabl>
+                <attrdef>Length of feature in internal units.</attrdef>
+                <attrdefs>Esri</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Positive real numbers that are automatically generated.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+        </detailed>
+    </eainfo>
+    <metainfo>
+        <metd>20200610</metd>
+        <metc>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>North Carolina Geodetic Survey</cntorg>
+                </cntorgp>
+                <cntpos>GIS Manager</cntpos>
+                <cntaddr>
+                    <addrtype>physical</addrtype>
+                    <address>4105 Reedy Creek Rd</address>
+                    <city>Raleigh</city>
+                    <state>NC</state>
+                    <postal>27607</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>919-733-3836</cntvoice>
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>
