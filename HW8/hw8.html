@@ -7,19 +7,24 @@
 </head>
 <body>
     <h1>Homework 8: Geoprocessing Analysis</h1>
-    <h4>The question I asked myself is what amount of designated Conservation Land is at risk of poaching in North Carolina?</h4>
+    <h4>The question I asked myself is what amount of designated Conservation Land is at risk of poaching due to its designation as Game Land in North Carolina?</h4>
     <p>This map has two original vector layers that I altered with geoprocessing techniques (Dissolve and Intersection) along with a third base layer showing 
     an outline of NC and its counties. The layers to be altered are Game Land in North Carolina and National Conservation sites in North Carolina. I chose these layers because I wanted 
     my project to relate to conservation. I noticed that there was overlap between the two layers, which was difficult to understand since one is for hunting and fishing, while 
-    the other is dedicated to preserving the land and its biodiversity. <br>
+    the other is dedicated to preserving the land and its biodiversity. <br><br>
     The first thing I did was create an intersection layer between Game Land and Conservation using geoprocessing 
     in order to visualize the overlap. My plan was to find the areas of the intersection and of the entire conservation area layer and divide them, to find the percentage of national 
     conservation land that is at risk of poaching by hunters. I dissolved both of these layers so that it would be easier to find their area using the field calculator in their attribute 
-    tables. The default area unit was in meters square, but since I wasn't dividng by hand and was ultimately looking for a percentage, I didn't see an issue with it. I did have to change
+    tables. This is because the field calculator calculates attributes per feature and so I wanted the layers I was calculating for to each be only a single layer. 
+    The default area unit was in meters square, but since I wasn't dividing by hand and was ultimately looking for a percentage, I didn't see an issue with it. I did have to change
     data type from a 32 bit integer to a 64 bit integer since the highest value a 32 bit integer can store is 2^32 which is roughly 4 billion. The overall conservation area amounts to exactly 
     12,559,056,356 meters squared, or 12,559.06 square kilometers. The area of the intersection of Game Land and Conservation Areas amounts to exactly 3,118,180,349 meters squared, or 3118.2 square 
     kilometers. When the intersection is divided by the total conservation area, the result shows that 24.83% of conservation land in North Carolina is also designated as game land. With so many small
-    polygon shapes present, the map looked very cluttered, so for cosmetic purposes I dissolved the base map to remove the county boundaries which were ultimately unecessary for conveying useful information.
+    polygon shapes present, the map looked very cluttered, so for cosmetic purposes I dissolved the base map to remove the county boundaries which were ultimately unecessary for conveying useful information.<br><br>
+    I then created a png map, including a legend containing the two values that are shown on the map, as well as a scale and a map to provide perspective of how much space is being portrayed. I added a textbox
+    with an aesthetically appealing background color so that it was one of the first things a viewer's eyes are drawn to. The textbox contains the final findings; that 24.83% of conservation 
+    land in North Carolina is designated as game land. This answers the question I originally asked, providing a final concrete figure. it demonstrates that there is a considerable risk to statewide biodiversity 
+    by introducing disruptive human forces to the environment but it is up to the viewer to come to their own conclusions of just how severe the problem is based off the data they were provided. 
 
     <a href = "HW8.1.png"><img src= "HW8.1.png" alt = "Map Picture" width = 1200px></a> <br>
 
